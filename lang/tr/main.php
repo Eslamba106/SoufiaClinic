@@ -1,0 +1,145 @@
+<?php
+
+return [
+    'home' => 'Anasayfa',
+    'about_us' => 'Hakkımızda',
+    'service' => 'Hizmetler',
+    'contact_us' => 'Bize Ulaşın',
+    'appointment' => 'Randevu',
+    'welcome_home' => 'ÖZEL SOUFIA MERKEZİNE HOŞGELDİNİZ',
+    'welcome_info' => 'Diş hekimliği tarihi, insanlık ve medeniyet tarihi kadar eskidir ve en erken kanıtlar M.Ö. 7000 - M.Ö. 5500 yıllarına kadar uzanmaktadır.',
+    'best_service' => 'En İyi Hizmetler',
+    'best_staff' => 'En İyi Kadro',
+    'about_soufia' => 'ÖZEL SOUFIA Hakkında',
+    'why_come' => 'Neden ÖZEL SOUFIA Diş Merkezimizi Tercih Etmelisiniz',
+    'reason_one' => 'Uzman Diş Hekimi Ekibi: Kliniğimiz, kaliteli hizmet sunmaya kendini adamış deneyimli ve yetenekli diş hekimlerinden oluşmaktadır.',
+    'reason_two' => 'İleri Teknoloji ve Ekipmanlar',
+    'reason_three' => 'Kapsamlı Diş Hizmetleri',
+    'reason_four' => 'Hasta Rahatlığı Önceliğimizdir',
+    'reason_five' => 'Uygun Fiyatlar ve Esnek Ödeme Seçenekleri',
+
+    'our_services' => 'Hizmetlerimiz',
+    'our_services_problem' => 'Hizmetlerimiz ve Sorununuzu Çözme Çabalarımız',
+    'tooth_clean' => 'Diş Temizliği',
+    'tooth_clean_service' => 'Profesyonel diş temizliği, sağlıklı bir gülümseme için gereklidir. Kliniğimizde, en son teknolojiyi kullanarak kapsamlı bir temizlik hizmeti sunuyoruz.',
+    'root_canal' => 'Kanal Tedavisi',
+    'root_canal_info' => 'Kanal tedavisi, enfekte veya hasarlı dişleri kurtarmak için etkili bir yöntemdir. Kliniğimizde, modern tekniklerle konforlu ve hassas kanal tedavisi uygulanmaktadır.',
+    'extractions' => 'Diş Çekimi',
+    'extractions_info' => 'Diş çekimi, hasarlı veya çürük dişlerin güvenli bir şekilde alınmasını sağlar. Uzmanlarımız, ağrısız ve konforlu bir deneyim sunar.',
+    'whitening' => 'Diş Beyazlatma',
+    'whitening_info' => 'Parlak bir gülümseme güveninizi artırır. Kliniğimizde, güvenli ve etkili profesyonel diş beyazlatma hizmetleri sunuyoruz.',
+
+    'qualified_Staff' => 'Nitelikli Kadro',
+    'awards' => 'Ödüller',
+    'happy_clients' => 'Mutlu Müşteriler',
+    'patients' => 'Hastalar',
+
+    'our_doctors' => 'Doktorlarımız',
+    'our_doctors_info' => 'Deneyimli Hekimlerimiz Hizmet Kalitesini Arttırmak İçin Çalışıyor',
+    'registered_dentist' => 'Kayıtlı Diş Hekimi',
+    'our_testimonials' => 'Müşteri Yorumlarımız',
+    'our_testimonials_info' => 'Özel Müşterilerimiz Söylüyor',
+    'testimonials_one' => '“Harika bir hizmet! Personel çok profesyoneldi ve deneyimim sorunsuz geçti. Kesinlikle tavsiye ederim!”',
+    'testimonials_two' => '“Kliniğin temizliği ve verimliliği beni etkiledi. Ekip beni çok rahat hissettirdi ve sonuçlar harikaydı.”',
+    'testimonials_three' => '“Çok dostça ve yetenekli profesyoneller! Her şeyi net bir şekilde açıkladılar ve mükemmel bir bakım sağladılar. Kesinlikle tekrar geleceğim.”',
+    'testimonials_four' => '“Harika bir deneyim! Ayrıntılara verilen önem ve kişiye özel bakım beklentilerimi aştı. Harika hizmet için teşekkürler!”',
+    'web_designer' => 'Web Tasarımcısı',
+    'engineer' => 'Mühendis',
+    'journalist' => 'Gazeteci',
+    'app_developer' => 'Uygulama Geliştirici',
+
+    'faq' => 'SSS',
+    'faq_question' => 'Sıkça Sorulan Sorular',
+    'question_one' => 'Diş hekimine ne sıklıkla gitmeliyim?',
+    'answer_one' => 'Kontrol ve temizlik için en az 6 ayda bir diş hekimine gitmeniz önerilir.',
+    'question_two' => 'Profesyonel diş temizliği acı verir mi?',
+    'answer_two' => 'Hayır, genellikle acı vermez. Bazı kişiler hafif hassasiyet yaşayabilir, ancak bu geçicidir.',
+    'question_three' => 'Ne zaman dolgu yaptırmalıyım?',
+    'answer_three' => 'Çürük veya küçük bir çatlak varsa, dolgu ile sorunun büyümesi önlenebilir.',
+    'question_four' => 'Diş beyazlatmanın faydaları nelerdir?',
+    'answer_four' => 'Beyazlatma, lekeleri giderir ve gülümsemenizin görünümünü iyileştirir.',
+    'question_five' => 'Kanal tedavisi acı verir mi?',
+    'answer_five' => 'Hayır, modern anestezi ile tamamen ağrısızdır ve derin çürümeye karşı dişi kurtarır.',
+    'question_six' => 'Diş çürüğü nasıl önlenir?',
+    'answer_six' => 'Günde iki kez diş fırçalamak, diş ipi kullanmak ve şeker tüketimini azaltmak çürüğü önlemeye yardımcı olur.',
+
+
+    'make_appointment' => 'Randevu Al',
+    'make_appointment_info' => 'Randevular Ajandanıza Yazılmalıdır',
+    'make_appointment_info_two' => 'Randevu Onayı
+Telefon veya e-posta yoluyla bir onay mesajı alacaksınız. Lütfen kontrol edip randevunuzu onayladığınızdan emin olun.
+Erken Gelin
+
+Lütfen gerekli işlemleri tamamlamak için randevunuzdan 10-15 dakika önce kliniğe gelin.
+Kimlik ve Sağlık Sigortası Kartını Getirin (varsa)
+
+Sağlık sigortanız varsa, lütfen sigorta kartınızı yanınızda getirin.
+İptal Durumunda Kliniği Bilgilendirin
+
+Randevunuzu iptal etmeniz veya yeniden planlamanız gerekiyorsa, lütfen en az 24 saat önceden kliniğe bilgi verin.',
+
+    'valid_patient_name_is_required' => 'Geçerli hasta adı gereklidir.',
+    'patient_name' => 'Hasta Adı',
+    'valid_email_is_required' => 'Geçerli e-posta adresi gereklidir.',
+    'email' => 'E-posta Adresi',
+    'valid_phone_is_required' => 'Geçerli telefon numarası gereklidir.',
+    'phone' => 'Telefon Numarası',
+    'gender' => 'Cinsiyet',
+    'mail' => 'Erkek',
+    'femail' => 'Kadın',
+    'department' => 'Bölüm',
+    'dental' => 'Diş',
+    'medical' => 'Tıbbi',
+    'submit' => 'Gönder',
+
+    'subscribe' => 'En Son Haberleri Almak İçin Abone Olun',
+    'subscribe_on' => 'Abone Ol',
+    'your_email' => 'E-postanız',
+    'logo_massege' => 'ÖZEL SOUFIA\'ya hoş geldiniz. Sizi burada ağırlamaktan memnuniyet duyuyoruz. Gülümsemeniz önceliğimizdir ve deneyimli ekibimiz, rahat ve dostane bir ortamda size en kaliteli diş bakımını sunmaya kendini adamıştır.',
+    'useful_link' => 'Faydalı Bağlantılar',
+    'our_location' => 'Konumumuz',
+    'is_proudly_developed_by' => 'Tarafından Gururla Geliştirilmiştir',
+    'ozel_soufia' => 'ÖZEL SOUFIA',
+    'eslam' => 'Eslam',
+    'copy_right' => 'Telif Hakkı',
+
+    'our_quality' => 'Kalitemiz',
+    'our_quality_info' => 'Hizmetlerimizin kalitesini korumak için elimizden geleni yapıyoruz.',
+    'healthcare' => 'Sağlık Hizmetleri',
+    'healthcare_info' => 'Sağlıklı dişlere sahip olmak ömür boyu süren bir özen gerektirir. Güzel dişlere sahip olsanız bile...',
+    'doctors' => 'Doktorlar',
+    'doctors_info' => 'Diş merkezimizde, yüksek kalitede bakım sağlamaya adanmış, son derece yetenekli ve deneyimli diş hekimlerinden oluşan bir ekiple gurur duyuyoruz. Uzmanlarımız, her hastanın konforlu ve profesyonel bir ortamda kişisel tedavi almasını sağlar.',
+    'facilities' => 'Tesisler',
+    'facility_info' => 'Diş kliniğimizde, hastalarımız için konforlu ve güvenli bir ortam sağlama taahhüdündeyiz. Son teknoloji tesislerimiz, yüksek kaliteli tedavi ve mükemmel hasta deneyimi sağlamak için tasarlanmıştır.',
+    'nursing_staff_info' => 'Diş merkezimizde, yüksek eğitimli ve şefkatli hemşire ekibimiz, her hastanın mümkün olan en iyi bakımı almasını sağlamada hayati bir rol oynamaktadır. Diş hekimlerimizle uyum içinde çalışarak, sorunsuz, konforlu ve stressiz bir deneyim sağlarlar.',
+    'nursing_staff' => 'Hemşire Ekibi',
+
+    'dental_sealants' => 'Diş Mühürleri',
+    'dental_sealants_video' => 'Mühürleme Videosunu İzleyin',
+    'dental_sealants_info' => 'Gülümsemenizden memnun değil misiniz? Diş hekimleri, gülüşünüzün görünümünü iyileştirmek için birçok araç ve teknik kullanır. White Bear Lake, MN\'de bulunan OZAIL SOUFIA, kapsamlı bir diş hizmetleri yelpazesi sunar. Mike Weisbrod, White Bear Lake, MN\'deki en iyi diş hekimlerinden bazılarıdır. Bilmeniz gereken on iki yaygın diş hizmeti bulunmaktadır.',
+
+    'work_time' => 'Çalışma Saatleri',
+    'mon_thu' => 'Pzt - Per',
+    'friday' => 'Cuma',
+    'saturday' => 'Cumartesi',
+    'your_contact_subject' => 'İletişim Konunuz',
+    'your_contact_subject_valid' => 'Geçerli bir konu gereklidir.',
+    'write_your_message' => 'Mesajınızı Buraya Yazın',
+    'write_your_message_valid' => 'Geçerli bir mesaj yazılması gereklidir.',
+
+    'dental_sealants_feature' => 'Diş Mühürlerinin Avantajları',
+    'dental_sealants_feature_info' => 'Diş hekimleri, gülüşünüzün görünümünü iyileştirmek için birçok araç ve teknik kullanır. White Bear’da yer alan OZAIL SOUFIA, kapsamlı hizmet sunar.',
+    'dental_sealants_feature_info_one' => 'Kanal tedavisi ve çekim işlemleriyle ilgili birçok efsane vardır. Gerçekte her iki tedavi de uygun durumlarda tercih edilir.',
+    'dental_sealants_feature_info_two' => 'Diş Kronları Nedir? Diş kronları, dişlerin işlevini ve görünümünü iyileştirmek için tasarlanmış özel bir restorasyon türüdür.',
+    'dental_sealants_feature_info_three' => 'Florür tedavileri, diş kliniklerinde, sağlık merkezlerinde ve okullarda yaygındır. Florür, etkili bir diş tedavisi olarak kabul edilmektedir.',
+    'dental_sealants_feature_info_four' => 'Ağız kokusu, çocuklar ve yetişkinler arasında en yaygın şikayetlerden biridir. Tahminen yetişkinlerin %30’una kadar bu durumdan şikayetçidir. Belki de neden bademcik taşlarıdır.',
+
+    'info' => 'Bir yılın daha sonuna geldik. Ancak yeni yılı karşılamadan önce, diş sigortası planınıza bir göz atın. Birçok hasta için, önceden ödenmiş diş avantajları kullanılmadan kalır.',
+    'why_do_dental_sealant' => 'Neden Diş Mührü Yaptırmalı',
+    'meet' => 'Bizi Daha Yakından Tanımak İçin Buluşalım. Umarız Bizi Daha İyi Anlarsınız.',
+
+    'address' => 'Adres',
+    'opening_hours' => 'Açılış Saatleri',
+    'visit_our_office' => 'Ofisimizi Ziyaret Edin',
+    'visit_our_office_info' => 'Dişiniz o kadar hasar görmüşse ki restorasyonla düzeltilemiyorsa, çekim gerekebilir.',
+];
