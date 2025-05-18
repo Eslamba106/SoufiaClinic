@@ -23,16 +23,16 @@
 					<nav class="navbar navbar-expand-md navbar-light">
 						<a class="navbar-brand" href="{{ route('home') }}">
 							<img width="100px" height="80px" src="{{ asset('A.png') }}" alt="Logo">
-						</a> 
-						
+						</a>
+
 						<div class="collapse navbar-collapse for-mobile-menu" id="navbarSupportedContent">
 							<ul class="navbar-nav m-auto">
 								<li class="nav-item">
 									<a href="{{ route('home') }}" class="nav-link  {{ (Request::is('/')) ? 'active' : '' }}">
-										{{ __('main.home') }}             
+										{{ __('main.home') }}
 									</a>
 
-									
+
 								</li>
 
 								<li class="nav-item">
@@ -41,7 +41,7 @@
 
 								{{-- <li class="nav-item">
 									<a href="#" class="nav-link dropdown-toggle">
-										Pages            
+										Pages
 									</a>
 
 									<ul class="dropdown-menu">
@@ -50,10 +50,10 @@
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link dropdown-toggle">
-												Services             
-												<i class="icofont-rounded-down"></i>  
+												Services
+												<i class="icofont-rounded-down"></i>
 											</a>
-		
+
 											<ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="services.html" class="nav-link">Services Page</a>
@@ -68,10 +68,10 @@
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link dropdown-toggle">
-												Authentication       
-												<i class="icofont-rounded-down"></i>      
+												Authentication
+												<i class="icofont-rounded-down"></i>
 											</a>
-		
+
 											<ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="sign-in.html" class="nav-link">Sign In Page</a>
@@ -84,11 +84,11 @@
 												</li>
 											</ul>
 										</li>
-										
+
 										<li class="nav-item">
 											<a href="#" class="nav-link dropdown-toggle">
-												Blog        
-												<i class="icofont-rounded-down"></i>      
+												Blog
+												<i class="icofont-rounded-down"></i>
 											</a>
 
 											<ul class="dropdown-menu">
@@ -97,7 +97,7 @@
                                                         {{ __('general.arabic') }}
                                                         <span class="float-right text-muted text-sm">
                                                             <img src="{{ URL::asset('images/flags/SA.png') }}" alt="">
-                                        
+
                                                         </span>
                                                     </a>
 												</li>
@@ -106,7 +106,7 @@
                                                         {{ __('general.english') }}
                                                         <span class="float-right text-muted text-sm">
                                                             <img src="{{ URL::asset('images/flags/US.png') }}" alt="">
-                                        
+
                                                         </span>
                                                     </a>
 												</li>
@@ -141,7 +141,7 @@
 
 								<li class="nav-item">
 									<a href="{{ route('services') }}" class="nav-link   {{ (Request::is('services')) ? 'active' : '' }}">
-										{{ __('main.service') }}             
+										{{ __('main.service') }}
 									</a>
 
 									{{-- <ul class="dropdown-menu">
@@ -156,10 +156,10 @@
 										</li>
 									</ul> --}}
 								</li>
-								
+
 								{{-- <li class="nav-item">
 									<a href="#" class="nav-link dropdown-toggle">
-										Shop             
+										Shop
 									</a>
 
 									<ul class="dropdown-menu">
@@ -181,35 +181,45 @@
 									</ul>
 								</li> --}}
 
-								
+
 								<li class="nav-item">
 									<a href="{{ route('contact_us') }}" class="nav-link {{ (Request::is('contact-us')) ? 'active' : '' }}">{{ __('main.contact_us') }} </a>
 								</li>
-								
+
 								<li class="nav-item">
 									<a href="#" class="nav-link dropdown-toggle">
-										{{ __('general.lang') }}            
+										{{ __('general.lang') }}
 									</a>
 
 									<ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="{{ route('lang', 'ar') }}" class="dropdown-item">
-                                               
+
                                                 <span class="float-right text-muted text-sm">
                                                     <img src="{{ asset('assets/images/flags/SA.png') }}" alt="">
-                                
+
                                                 </span>
                                                 {{ __('general.arabic') }}
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="{{ route('lang', 'en') }}" class="dropdown-item">
-                                                
+
                                                 <span class="float-right text-muted text-sm">
                                                     <img src="{{ asset('assets/images/flags/US.png') }}" alt="">
-                                
+
                                                 </span>
                                                 {{ __('general.english') }}
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="{{ route('lang', 'tr') }}" class="dropdown-item">
+
+                                                <span class="float-right text-muted text-sm">
+                                                    <img src="{{ asset('assets/images/flags/tr.jpg') }}" alt="">
+
+                                                </span>
+                                                {{ __('Turkish') }}
                                             </a>
                                         </li>
                                     </ul>

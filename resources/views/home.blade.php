@@ -380,6 +380,31 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="main-doctors-item hover-style wow fadeInUp delay-0-2s">
+							<div class="inner-border">
+								<div class="doctor-img">
+                                    <a href="{{route('doctor.cv4')}}">
+									<img src="assets/images/doctors/DSC07528.png" alt="Image">
+                                        </a>
+									<ul>
+										<li>
+											<a href="https://www.tiktok.com/@soufiaclinic3" target="_blank">
+												<i class="fa-brands fa-tiktok"></i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/soufiaclinic3/" target="_blank">
+												<i class="icofont-instagram"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<h3>Dr. Ümit Halim DEMİREL</h3>
+								<span>{{ __('main.registered_dentist') }}</span>
+							</div>
+						</div>
+					</div>
 
 					<div class="col-lg-4 col-sm-6">
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-4s">
