@@ -2,6 +2,76 @@
 @section('title')
 {{ __('main.home') }}
 @endsection
+<style>
+.doctor-profile-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.doctor-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.doctor-info h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.doctor-info .specialization {
+    font-size: 16px;
+    color: #5cb85c;
+}
+.contact-info h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.contact-info p {
+    font-size: 15px;
+    color: #333;
+}
+.cv-details {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+.cv-section {
+    margin-bottom: 30px;
+}
+.cv-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.cv-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cv-item .year {
+    color: #888;
+    font-size: 14px;
+}
+.cv-actions {
+    margin-top: 30px;
+    text-align: center;
+}
+.cv-actions .main-btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cv-actions .main-btn:hover {
+    background-color: #449d44;
+}
+</style>
 @section('content')
     	<!--=== Start Banner Section ===-->
 		<section class="banner-section bg-color-f6fbff">
@@ -12,7 +82,7 @@
 							<div class="banner-content style-two">
 								<h1 class="wow fadeInUp delay-0-2s">{{ __('main.welcome_home') }}</h1>
 								<p class="wow fadeInUp delay-0-4s">{{ __('main.welcome_info') }}</p>
-	
+
 								<ul class="wow fadeInUp delay-0-6s">
 								<li>
 									<i class="icofont-shield-alt"></i>
@@ -23,7 +93,7 @@
 									<span>{{ __('main.best_staff') }}</span>
 								</li>
 							</ul>
-	
+
 								<div class="banner-btn">
 									<a href="{{ route('about_us') }}" class="main-btn">
 										<span>{{ __('main.about_us') }}</span>
@@ -37,7 +107,7 @@
 							<div class="banner-content style-two">
 								<h1 class="wow fadeInUp delay-0-2s">{{ __('main.welcome_home') }}</h1>
 								<p class="wow fadeInUp delay-0-4s">{{ __('main.welcome_info') }}</p>
-	
+
 								<ul class="wow fadeInUp delay-0-6s">
 								<li>
 									<i class="icofont-shield-alt"></i>
@@ -48,7 +118,7 @@
 									<span>{{ __('main.best_staff') }}</span>
 								</li>
 							</ul>
-	
+
 								<div class="banner-btn">
 									<a href="{{ route('about_us') }}" class="main-btn">
 										<span>{{ __('main.about_us') }}</span>
@@ -62,7 +132,7 @@
 							<div class="banner-content style-two">
 								<h1 class="wow fadeInUp delay-0-2s">{{ __('main.welcome_home') }}</h1>
 								<p class="wow fadeInUp delay-0-4s">{{ __('main.welcome_info') }}</p>
-	
+
 								<ul class="wow fadeInUp delay-0-6s">
 									<li>
 										<i class="icofont-shield-alt"></i>
@@ -73,7 +143,7 @@
 										<span>{{ __('main.best_staff') }}</span>
 									</li>
 								</ul>
-	
+
 								<div class="banner-btn">
 									<a href="{{ route('about_us') }}" class="main-btn">
 										<span>{{ __('main.about_us') }}</span>
@@ -89,7 +159,9 @@
 					<div class="col-lg-6 p-0">
 						<div class="banner-slider owl-carousel owl-theme">
 							<div class="banner-img">
-								<img src="{{ asset('assets/images/doctors/doctor11.png') }}" alt="Image">
+                                <a href="">
+								<img  src="{{ asset('assets/images/doctors/doctor11.png') }}" alt="Image">
+                                    </a>
 							</div>
 							<div class="banner-img">
 								<img src="{{ asset('assets/images/doctors/doctors2.png') }}" alt="Image">
@@ -126,25 +198,25 @@
 								<li class="hover-style wow fadeInUp delay-0-2s">
 									<div class="inner-border">
 										<i class="icofont-shield-alt"></i>
-										{{ __('main.reason_two') }} 
+										{{ __('main.reason_two') }}
 									</div>
 								</li>
 								<li class="hover-style wow fadeInUp delay-0-4s">
 									<div class="inner-border">
 										<i class="icofont-shield-alt"></i>
-										{{ __('main.reason_three') }} 
+										{{ __('main.reason_three') }}
 									</div>
 								</li>
 								<li class="hover-style wow fadeInUp delay-0-6s">
 									<div class="inner-border">
 										<i class="icofont-shield-alt"></i>
-										{{ __('main.reason_four') }} 
+										{{ __('main.reason_four') }}
 									</div>
 								</li>
 								<li class="hover-style wow fadeInUp delay-0-8s">
 									<div class="inner-border">
 										<i class="icofont-shield-alt"></i>
-										{{ __('main.reason_five') }} 
+										{{ __('main.reason_five') }}
 									</div>
 								</li>
 							</ul>
@@ -196,7 +268,7 @@
 									<a href="">{{ __('main.root_canal') }}</a>
 								</h3>
 								<p>{{ __('main.root_canal_info') }}</p>
-								 
+
 							</div>
 						</div>
 					</div>
@@ -211,7 +283,7 @@
 									<a href="">{{ __('main.extractions') }}</a>
 								</h3>
 								<p>{{ __('main.extractions_info') }}</p>
-								 
+
 							</div>
 						</div>
 					</div>
@@ -226,7 +298,7 @@
 									<a href="#">{{ __('main.whitening') }}</a>
 								</h3>
 								<p>{{ __('main.whitening_info') }}</p>
-								 
+
 							</div>
 						</div>
 					</div>
@@ -287,14 +359,15 @@
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-2s">
 							<div class="inner-border">
 								<div class="doctor-img">
-									<img src="assets/images/doctors/doctors-1.jpg" alt="Image">
-	
-									<ul> 
+                                    <a href="{{route('doctor.cv2')}}">
+									<img src="assets/images/doctors/Drline.png" alt="Image">
+                                        </a>
+									<ul>
 										<li>
 											<a href="https://www.tiktok.com/@soufiaclinic3" target="_blank">
-												<i class="fa-brands fa-tiktok"></i> 
+												<i class="fa-brands fa-tiktok"></i>
 											</a>
-										</li> 
+										</li>
 										<li>
 											<a href="https://www.instagram.com/soufiaclinic3/" target="_blank">
 												<i class="icofont-instagram"></i>
@@ -302,7 +375,7 @@
 										</li>
 									</ul>
 								</div>
-								<h3>Ahmed Kiral</h3>
+								<h3>Dr. Lin MAKKİ</h3>
 								<span>{{ __('main.registered_dentist') }}</span>
 							</div>
 						</div>
@@ -312,22 +385,23 @@
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-4s">
 							<div class="inner-border">
 								<div class="doctor-img">
-									<img src="assets/images/doctors/doctors-2.jpg" alt="Image">
-	
+                                    <a href="{{route('doctor.cv1')}}">
+									<img src="assets/images/doctors/DROUAIS.png" alt="Image">
+                                        </a>
 									<ul>
 										<li>
-											<a href="https://www.tiktok.com/@soufiaclinic3" target="_blank">
-												<i class="fa-brands fa-tiktok"></i> 
+											<a href="#" target="_blank">
+												<i class="fa-brands fa-tiktok"></i>
 											</a>
-										</li> 
+										</li>
 										<li>
-											<a href="https://www.instagram.com/soufiaclinic3/" target="_blank">
+											<a href="#" target="_blank">
 												<i class="icofont-instagram"></i>
 											</a>
 										</li>
 									</ul>
 								</div>
-								<h3>Asaad Al-Murad</h3>
+								<h3>Dr. Uveys Kovara</h3>
 								<span>{{ __('main.registered_dentist') }}</span>
 							</div>
 						</div>
@@ -337,14 +411,15 @@
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-6s">
 							<div class="inner-border">
 								<div class="doctor-img">
-									<img src="assets/images/doctors/doctors-3.jpg" alt="Image">
-	
+                                <a href="{{route('doctor.cv3')}}">
+									<img src="assets/images/doctors/DRSARA2.png" alt="Image">
+                                </a>
 									<ul>
 										<li>
 											<a href="https://www.tiktok.com/@soufiaclinic3" target="_blank">
-												<i class="fa-brands fa-tiktok"></i> 
+												<i class="fa-brands fa-tiktok"></i>
 											</a>
-										</li> 
+										</li>
 										<li>
 											<a href="https://www.instagram.com/soufiaclinic3/" target="_blank">
 												<i class="icofont-instagram"></i>
@@ -352,7 +427,7 @@
 										</li>
 									</ul>
 								</div>
-								<h3>Anis Ozyar</h3>
+								<h3>Dr. Leyla Hasaneyn</h3>
 								<span>{{ __('main.registered_dentist') }}</span>
 							</div>
 						</div>
@@ -376,7 +451,7 @@
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-2s">
 						<div class="inner-border">
 							<img src="{{ asset('assets/images/testimonials/testimonialss-1.jpg') }}" alt="Image">
-						
+
 							<div class="testimonials-content">
 								<h3>Aylin</h3>
 								<span>{{ __('main.app_developer') }}</span>
@@ -405,7 +480,7 @@
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-4s">
 						<div class="inner-border">
 							<img src="{{ asset('assets/images/testimonials/testimonialss-2.jpg') }}" alt="Image">
-						
+
 							<div class="testimonials-content">
 								<h3>Deniz</h3>
 								<span>{{ __('main.web_designer') }}</span>
@@ -434,7 +509,7 @@
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-6s">
 						<div class="inner-border">
 							<img src="{{ asset('assets/images/testimonials/testimonialss-3.jpg') }}" alt="Image">
-						
+
 							<div class="testimonials-content">
 								<h3>Kerem</h3>
 								<span>{{ __('main.engineer') }}</span>
@@ -463,7 +538,7 @@
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-8s">
 						<div class="inner-border">
 							<img src="{{ asset('assets/images/testimonials/testimonialss-4.jpg') }}" alt="Image">
-						
+
 							<div class="testimonials-content">
 								<h3>Ramzi Sagalam </h3>
 								<span>{{ __('main.journalist') }}</span>
@@ -550,7 +625,7 @@
 										</div>
 									</div>
 								</div>
-								
+
 								<div class="accordion-item">
 									<h2 class="accordion-header" id="headingFive">
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">{{ __('main.question_five') }}</button>
@@ -587,7 +662,7 @@
 		</section>
 		<!--=== End FAQ Section ===-->
 
-	 
+
 
 		<!--=== Start Appointment Section ===-->
 		<section class="appointment-section pb-100">

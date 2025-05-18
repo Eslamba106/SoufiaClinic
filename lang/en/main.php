@@ -70,7 +70,7 @@ return [
 
     'make_appointment'                              => 'Make An Appointment',
     'make_appointment_info'                         => 'Appointments Should Be Written In Your Planner',
-    'make_appointment_info_two'                          => 'Appointment Confirmation 
+    'make_appointment_info_two'                          => 'Appointment Confirmation
         You will receive a confirmation message via phone or email. Please make sure to check and confirm your appointment.
         Arrive Early
 
@@ -148,4 +148,28 @@ return [
 
 
 
+
+    'doctor_cv' => 'Doctor CV',
+    'languages' => 'languages',
+    'skills' => 'skills',
+    'certifications' => 'certifications',
+    'contact_info' => 'Contact Information',
+    'education' => 'Education',
+    'professional_experience' => 'Professional Experience',
+    'private_clinic' => 'Private Clinic',
+    'established_clinic' => 'Established his own clinic in 1982',
+    'districts_worked' => 'Districts Worked In',
+    'professional_info' => 'Professional Information',
+    'total_experience' => 'Total Professional Experience',
+    'years' => 'years',
+    'retirement' => 'Retirement',
+    'contact_doctor' => 'Contact Doctor',
+      'professional_profile' => 'Professional Profile',
+    'professional_statement_part1' => 'I graduated from the Faculty of Dentistry at Near East University between 2015 and 2020.',
+    'professional_statement_part2' => 'Since 2022, I have been pursuing a doctorate in Prosthetic Dental Treatment at Istanbul University.',
+    'professional_statement_part3' => 'My professional interest and experience are primarily focused on aesthetic dentistry, aiming to enhance my patients\' smiles both functionally and aesthetically. I have specialized in smile design, laminates (veneers), and personalized aesthetic treatments. I am fluent in Arabic, English, and Turkish, which enables me to communicate comfortably with international patients.',
+    'dental_degree' => 'Doctor of Dental Surgery (DDS) Degree'
+
+
 ];
+

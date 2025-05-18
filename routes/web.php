@@ -40,3 +40,9 @@ Route::get('/contact-us', function () {
 Route::get('/appointment', function () {
     return view('pages.appointment');
 })->name('appointment');
+
+Route::view('/cvs/1', 'pages.cv1')->name('doctor.cv1');
+Route::view('/cvs/2', 'pages.cvs.cv2')->name('doctor.cv2');
+Route::view('/cvs/3', 'pages.cvs.cv3')->name('doctor.cv3');
+
+// Route::view('/cvs', 'pages.cvs.')->name('doctor.cv5');
