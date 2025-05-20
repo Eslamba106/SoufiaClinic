@@ -476,7 +476,7 @@
 				<div class="owl-carousel owl-theme testimonials-slide">
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-2s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
+							<img src="{{ asset('assets/images/emo.jpg') }}" alt="Image" style="width: 50%; height: 25%;" >
 
 							<div class="testimonials-content">
 								<h3>Aylin</h3>
@@ -505,7 +505,7 @@
 
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-4s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
+							<img src="{{ asset('assets/images/emo.jpg') }}" alt="Image" style="width: 50%; height: 25%;" >
 
 							<div class="testimonials-content">
 								<h3>Deniz</h3>
@@ -534,7 +534,7 @@
 
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-6s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
+							<img src="{{ asset('assets/images/emo.jpg') }}" alt="Image" style="width: 50%; height: 25%;" >
 
 							<div class="testimonials-content">
 								<h3>Kerem</h3>
@@ -563,7 +563,7 @@
 
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-8s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
+							<img src="{{ asset('assets/images/emo.jpg') }}" alt="Image" style="width: 50%; height: 25%;" >
 
 							<div class="testimonials-content">
 								<h3>Ramzi Sagalam </h3>
