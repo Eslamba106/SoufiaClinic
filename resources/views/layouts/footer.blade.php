@@ -32,14 +32,14 @@
                <div class="col-lg-3 col-sm-6">
                    <div class="main-footer-item wow fadeInUp delay-0-2s">
                        <a href="{{ route('home') }}" class="footer-logo">
-                           <img width="150px" height="100px" src="{{ asset('logo.png') }}" alt="Image">
+                           <img width="150px" height="100px" src="{{ asset('assets/images/logo2.png') }}" alt="Image">
                        </a>
                        <p>{{ __('main.logo_massege') }}</p>
 
                        <ul class="footer-social-link">
                         <li>
                             <a href="https://www.tiktok.com/@soufiaclinic3" target="_blank">
-                                <i class="fa-brands fa-tiktok"></i>
+                                <i class="fa-brands fa-tiktok" ></i>
                             </a>
                         </li>
                         <li>
