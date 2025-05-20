@@ -1,9 +1,9 @@
 @extends('layouts.main')
 @section('title')
-  {{ __('main.contact_us') }} 
+  {{ __('main.contact_us') }}
 @endsection
 @section('content')
- 
+
 
 		<!--=== Start Page Banner Section ===-->
 		<section class="page-banner-section bg-color-ebeef5 ptb-100">
@@ -39,19 +39,19 @@
 
 				<div class="row">
 					<div class="col-lg-3 col-sm-6">
-						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-2s">
-							<div class="inner-border">
+						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-2s" style="height: 90%">
+							<div class="inner-border" >
 								<div class="icon">
 									<img src="assets/images/icon/icon-17.svg" alt="Image">
 								</div>
 								<h3>{{ __('main.address') }}</h3>
-								<p>C10 No:1AF iç kapi, Maslak Mahallesi Taşyoncası Sokak, Maslak, 1453 1AF No:B4, 34485 Sarıyer/İstanbul, تركيا3</p>
+								<p>C10 No:1AF iç kapi, Maslak Mahallesi Taşyoncası Sokak, Maslak, 1453 1AF No:B4, 34485 Sarıyer/İstanbul,turkey</p>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-sm-6">
-						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-4s">
+						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-4s" style="height: 90%">
 							<div class="inner-border">
 								<div class="icon">
 									<img src="assets/images/icon/icon-18.svg" alt="Image">
@@ -73,15 +73,15 @@
 					</div>
 
 					<div class="col-lg-3 col-sm-6">
-						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-6s">
+						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-6s" style="height: 90%">
 							<div class="inner-border">
 								<div class="icon">
 									<img src="assets/images/icon/icon-19.svg" alt="Image">
 								</div>
 								<h3>{{ __('main.phone') }}</h3>
 								<ul>
-									 
-									<li><a href="tel:+905013170282">+90 501 317 02 82</a> 
+
+									<li><a href="tel:+905013170282">+90 501 317 02 82</a>
 									</li>
 								</ul>
 							</div>
@@ -89,13 +89,13 @@
 					</div>
 
 					<div class="col-lg-3 col-sm-6">
-						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-8s">
+						<div class="main-contact-info-item hover-style wow fadeInUp delay-0-8s" style="height: 90%">
 							<div class="inner-border">
 								<div class="icon">
 									<img src="assets/images/icon/icon-20.svg" alt="Image">
 								</div>
 								<h3>{{ __('main.email') }}</h3>
-								<ul> 
+								<ul>
 									<li>
 										<a href="mailto:info@gmail.com">info@gmail.com</a>
 									</li>
@@ -108,7 +108,7 @@
 
 			<img src="assets/images/blog/blog-shape-1.png" class="shape shape-1" alt="Image">
 			<img src="assets/images/blog/blog-shape-2.png" class="shape shape-2" alt="Image">
-		</section>	
+		</section>
 		<!--=== End Contact Us Section ===-->
 
 		<!--=== End Contact Us Form Section ===-->
@@ -166,7 +166,7 @@
 							</div>
 						</form>
 					</div>
-					
+
 					<div class="col-lg-6">
 						<div class="map-wrap ms-15 wow fadeInUp delay-0-4s">
 							<div class="contact-title">
@@ -174,8 +174,8 @@
 								<p>{{ __('main.visit_our_office_info') }}</p>
 							</div>
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.7559021282977!2d29.009248!3d41.1180218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab73da5a2898f%3A0xb70d03baf591b280!2sSOUFIA%20ESTETIK!5e0!3m2!1sar!2seg!4v1740769862896!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            
+                            {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.7559021282977!2d29.009248!3d41.1180218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab73da5a2898f%3A0xb70d03baf591b280!2sSOUFIA%20ESTETIK!5e0!3m2!1sar!2seg!4v1740769862896!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
+
                                                 </div>
 					</div>
 				</div>
@@ -183,5 +183,5 @@
 		</div>
 		<!--=== End Contact Us Form Section ===-->
 
-	 
+
 @endsection

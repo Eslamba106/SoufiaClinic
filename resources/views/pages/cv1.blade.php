@@ -143,9 +143,12 @@
                         <p class="specialization">Cosmetic Dentistry Specialist</p>
                         <div class="contact-info">
                             <h4>{{ __('main.contact_info') }}</h4>
-                            <p><i class="icofont-phone"></i> +90 XXX XXX XXXX</p>
-                            <p><i class="icofont-email"></i> uveys@example.com</p>
+                            <p><i class="icofont-phone"></i>+90 505 550 08 50</p>
+                              <a href="info@soufiaclinic.com"><i class="icofont-email"></i> info@soufiaclinic.com</a>
                             <p><i class="icofont-google-map"></i> Istanbul, Turkey</p>
+                            <a href="{{ route('appointment') }}" class="main-btn">
+											<span>{{ __('main.appointment') }} </span>
+										</a>
                         </div>
                     </div>
                 </div>

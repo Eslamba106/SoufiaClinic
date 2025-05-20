@@ -143,9 +143,12 @@
                         <p class="specialization">General & Esthetic Dentist</p>
                         <div class="contact-info">
                             <h4>{{ __('main.contact_info') }}</h4>
-                            <p><i class="icofont-phone"></i> +90 535 108 05 18</p>
-                            <p><i class="icofont-email"></i> leyla.makki@hotmail.com</p>
+                            <p><i class="icofont-phone"></i>+90 505 550 08 50</p>
+                            <p><i class="icofont-email"></i> info@soufiaclinic.com</p>
                             <p><i class="icofont-google-map"></i> Istanbul, Turkey</p>
+                             <a href="{{ route('appointment') }}" class="main-btn">
+											<span>{{ __('main.appointment') }} </span>
+										</a>
                         </div>
                     </div>
                 </div>

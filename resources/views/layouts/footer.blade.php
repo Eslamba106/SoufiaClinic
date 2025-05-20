@@ -39,11 +39,16 @@
                        <ul class="footer-social-link">
                         <li>
                             <a href="https://www.tiktok.com/@soufiaclinic3" target="_blank">
-                                <i class="fa-brands fa-tiktok"></i> 
+                                <i class="fa-brands fa-tiktok"></i>
                             </a>
-                        </li> 
+                        </li>
                         <li>
-                            <a href="https://www.instagram.com/soufiaclinic3/" target="_blank">
+                            <a href="https://www.facebook.com/share/1AaFt58QYc/?mibextid=wwXIfr" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ozel.soufiaclinic?igsh=eDkybnZiYmw4dXZt" target="_blank">
                                 <i class="icofont-instagram"></i>
                             </a>
                         </li>
@@ -105,7 +110,7 @@
                            <li>
                                <i class="icofont-envelope"></i>
                                <a href="mailto:bonax@gmail.com">bonax@gmail.com</a>
-                           </li> 
+                           </li>
                            <li>
                                <i class="icofont-ui-call"></i>
                                <a href="tel:+905013170282">+90 501 317 02 82</a>
@@ -123,8 +128,8 @@
        <div class="container">
            <div class="row">
                <div class="col-lg-8 col-md-7">
-                   <p>{{ __('main.copy_right') }} © <span>{{ __('main.ozel_soufia') }} </span>{{ __('main.is_proudly_developed_by') }} <a href="https://mostaql.com/u/Eslamba106"
-                           target="_blank">{{ __('main.eslam') }}</a></p>
+                   <p>{{ __('main.copy_right') }} © <span>{{ __('main.ozel_soufia') }} </span>
+                           </p>
                </div>
                <div class="col-lg-4 col-md-5">
                    {{-- <ul>
@@ -158,7 +163,7 @@
 
    <!--=== JS Link ===-->
    @if (session('locale') == 'ar')
-    
+
    <script src="{{ asset('rtl/assets/js/jquery.min.js') }}"></script>
    <script src="{{ asset('rtl/assets/js/bootstrap.bundle.min.js') }}"></script>
    <script src="{{ asset('rtl/assets/js/jquery.meanmenu.js') }}"></script>
@@ -168,9 +173,9 @@
    <script src="{{ asset('rtl/assets/js/magnific-popup.min.js') }}"></script>
    <script src="{{ asset('rtl/assets/js/counterup.min.js') }}"></script>
    <script src="{{ asset('rtl/assets/js/waypoints.min.js') }}"></script>
-   <script src="{{ asset('rtl/assets/js/custom.js') }}"></script>     
+   <script src="{{ asset('rtl/assets/js/custom.js') }}"></script>
    @else
- 
+
 
    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>

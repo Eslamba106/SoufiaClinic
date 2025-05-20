@@ -240,9 +240,10 @@
 				</div>
 
 				<div class="row d-flex justify-content-center">
-					<div class="col-lg-3 col-sm-6">
+
+					<div class="col-lg-3 col-sm-6" >
 						<div class="main-services-box hover-style wow fadeInUp delay-0-2s">
-							<div class="inner-border">
+							<div class="inner-border" style=" height: 80%;">
 								<div class="icon">
 									<img src="assets/images/icon/icon-1.svg" alt="Image">
 								</div>
@@ -258,9 +259,9 @@
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-sm-6">
+					<div class="col-lg-3 col-sm-6" >
 						<div class="main-services-box hover-style wow fadeInUp delay-0-4s">
-							<div class="inner-border">
+							<div class="inner-border" style=" height: 80%;">
 								<div class="icon">
 									<img src="assets/images/icon/icon-2.svg" alt="Image">
 								</div>
@@ -275,7 +276,7 @@
 
 					<div class="col-lg-3 col-sm-6">
 						<div class="main-services-box hover-style wow fadeInUp delay-0-6s">
-							<div class="inner-border">
+							<div class="inner-border" style=" height: 80%;">
 								<div class="icon">
 									<img src="assets/images/icon/icon-3.svg" alt="Image">
 								</div>
@@ -288,9 +289,9 @@
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-sm-6">
+					<div class="col-lg-3 col-sm-6" >
 						<div class="main-services-box hover-style wow fadeInUp delay-0-8s">
-							<div class="inner-border">
+							<div class="inner-border" style=" height: 80%;">
 								<div class="icon">
 									<img src="assets/images/icon/icon-4.svg" alt="Image">
 								</div>
@@ -350,12 +351,12 @@
 		<section class="our-doctors-section pt-100 pb-70">
 			<div class="container">
 				<div class="main-section-title wow fadeInUp delay-0-2s">
-					<span class="up-title">{{ __('main.our_doctors') }}</span>
+					<span class="up-title" style=" font-size: 300%;">{{ __('main.our_doctors') }}</span>
 					<h2>{{ __('main.our_doctors_info') }}</h2>
 				</div>
 
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-sm-6">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-2s">
 							<div class="inner-border">
 								<div class="doctor-img">
@@ -380,7 +381,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-sm-6">
+					<div class="col-lg-3 col-sm-6">
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-2s">
 							<div class="inner-border">
 								<div class="doctor-img">
@@ -406,7 +407,7 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-sm-6">
+					<div class="col-lg-3 col-sm-6">
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-4s">
 							<div class="inner-border">
 								<div class="doctor-img">
@@ -432,7 +433,7 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-sm-6">
+					<div class="col-lg-3 col-sm-6">
 						<div class="main-doctors-item hover-style wow fadeInUp delay-0-6s">
 							<div class="inner-border">
 								<div class="doctor-img">
@@ -475,7 +476,7 @@
 				<div class="owl-carousel owl-theme testimonials-slide">
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-2s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/testimonials/testimonialss-1.jpg') }}" alt="Image">
+							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
 
 							<div class="testimonials-content">
 								<h3>Aylin</h3>
@@ -504,7 +505,7 @@
 
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-4s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/testimonials/testimonialss-2.jpg') }}" alt="Image">
+							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
 
 							<div class="testimonials-content">
 								<h3>Deniz</h3>
@@ -533,7 +534,7 @@
 
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-6s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/testimonials/testimonialss-3.jpg') }}" alt="Image">
+							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
 
 							<div class="testimonials-content">
 								<h3>Kerem</h3>
@@ -562,7 +563,7 @@
 
 					<div class="main-testimonials hover-style wow fadeInUp delay-0-8s">
 						<div class="inner-border">
-							<img src="{{ asset('assets/images/testimonials/testimonialss-4.jpg') }}" alt="Image">
+							<img src="{{ asset('assets/images/comment.png') }}" alt="Image" style="width: 50%; height: 30%;" >
 
 							<div class="testimonials-content">
 								<h3>Ramzi Sagalam </h3>

@@ -22,7 +22,7 @@
 				<div class="container">
 					<nav class="navbar navbar-expand-md navbar-light">
 						<a class="navbar-brand" href="{{ route('home') }}">
-							<img width="100px" height="80px" src="{{ asset('A.png') }}" alt="Logo">
+							<img width="120px" height="100px" src="{{ asset('assets/images/logo2.png') }}" alt="Logo">
 						</a>
 
 						<div class="collapse navbar-collapse for-mobile-menu" id="navbarSupportedContent">
@@ -247,7 +247,7 @@
 					<div class="mobile-menu">
 						<div class="logo">
 							<a href="{{ route('home') }}">
-								<img width="150px" height="100px" src="{{ asset('logo.png') }}"  alt="Logo">
+								<img width="150px" height="100px" src="{{ asset('assets/images/logo2.png') }}"  alt="Logo">
 							</a>
 						</div>
 					</div>
